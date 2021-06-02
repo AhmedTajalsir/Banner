@@ -1,0 +1,18 @@
+.banner {
+    height: 448px;
+    position: relative; /* Becouse we have some Element on it 'the Banner' */
+    color: white; 
+    object-fit: contain;
+}
+.space{
+    height: 330px;
+}
+.banner__fadeBottom{
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #131313
+    );
+}
